@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 # Create your models here.
-class Course_table(models.Model):
+class Course_table(models.Model): 
     Course_Name=models.CharField(max_length=250)
     Faculty=models.CharField(max_length=250)
     class_date=models.DateField( )
